@@ -8,21 +8,21 @@ const portfolioItems = [
     clientName: "TechNova",
     campaignTitle: "Disrupting the Future of AI",
     description: "Launched a multi-faceted campaign that positioned TechNova as an industry pioneer, securing features in major tech journals and driving investor interest.",
-    image: "https://placehold.co/600x400.png",
+    image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx0ZWNobm9sb2d5JTIwYWJzdHJhY3R8ZW58MHx8fHwxNzU1ODc2NTQ4fDA&ixlib=rb-4.1.0&q=80&w=1080",
     hint: "technology abstract"
   },
   {
     clientName: "GreenEats",
     campaignTitle: "A Sustainable Food Movement",
     description: "Crafted a narrative around sustainability and health, resulting in a 300% increase in social media engagement and partnerships with national grocery chains.",
-    image: "https://placehold.co/600x400.png",
+    image: "https://images.unsplash.com/photo-1547592180-85f173990554?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxoZWFsdGh5JTIwZm9vZHxlbnwwfHx8fDE3NTU4NzY1NDh8MA&ixlib=rb-4.1.0&q=80&w=1080",
     hint: "healthy food"
   },
   {
     clientName: "FinSecure",
     campaignTitle: "Building Trust in Digital Finance",
     description: "Developed a crisis communication plan and proactive media outreach strategy that rebuilt consumer trust and solidified their market leadership.",
-    image: "https://placehold.co/600x400.png",
+    image: "https://images.unsplash.com/photo-1687720106084-d6e235ad226c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxmaW5hbmNlJTIwc2VjdXJpdHl8ZW58MHx8fHwxNzU1ODc2NTQ4fDA&ixlib=rb-4.1.0&q=80&w=1080",
     hint: "finance security"
   }
 ];
