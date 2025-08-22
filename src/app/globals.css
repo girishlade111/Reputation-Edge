@@ -65,4 +65,23 @@
   body {
     @apply bg-background text-foreground;
   }
+  
+  .prose {
+    @apply text-foreground;
+  }
+  .prose h1, .prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
+    @apply text-primary;
+  }
+  .prose p, .prose li {
+      @apply text-muted-foreground;
+  }
+  .prose strong {
+      @apply text-foreground;
+  }
+  .prose a {
+    @apply text-accent hover:text-accent/80;
+  }
+  .prose ul > li::before {
+    @apply bg-accent;
+  }
 }

@@ -26,27 +26,27 @@ export function Footer() {
               Elevating brands through strategic public relations and reputation management.
             </p>
             <div className="flex space-x-4 mt-4">
-              <Link href="#" aria-label="Twitter"><Twitter className="h-5 w-5 hover:text-accent transition-colors" /></Link>
-              <Link href="#" aria-label="LinkedIn"><Linkedin className="h-5 w-5 hover:text-accent transition-colors" /></Link>
-              <Link href="#" aria-label="Instagram"><Instagram className="h-5 w-5 hover:text-accent transition-colors" /></Link>
+              <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><Twitter className="h-5 w-5 hover:text-accent transition-colors" /></a>
+              <a href="#" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><Linkedin className="h-5 w-5 hover:text-accent transition-colors" /></a>
+              <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><Instagram className="h-5 w-5 hover:text-accent transition-colors" /></a>
             </div>
           </div>
 
           <div>
             <h3 className="font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2 text-sm">
-              <li><Link href="#services" className="text-muted-foreground hover:text-accent transition-colors">Services</Link></li>
-              <li><Link href="#portfolio" className="text-muted-foreground hover:text-accent transition-colors">Portfolio</Link></li>
-              <li><Link href="#about" className="text-muted-foreground hover:text-accent transition-colors">About Us</Link></li>
-              <li><Link href="#contact" className="text-muted-foreground hover:text-accent transition-colors">Contact</Link></li>
+              <li><Link href="/#services" className="text-muted-foreground hover:text-accent transition-colors">Services</Link></li>
+              <li><Link href="/#portfolio" className="text-muted-foreground hover:text-accent transition-colors">Portfolio</Link></li>
+              <li><Link href="/#about" className="text-muted-foreground hover:text-accent transition-colors">About Us</Link></li>
+              <li><Link href="/#contact" className="text-muted-foreground hover:text-accent transition-colors">Contact</Link></li>
             </ul>
           </div>
           
           <div>
             <h3 className="font-semibold mb-4">Legal</h3>
             <ul className="space-y-2 text-sm">
-              <li><Link href="#" className="text-muted-foreground hover:text-accent transition-colors">Privacy Policy</Link></li>
-              <li><Link href="#" className="text-muted-foreground hover:text-accent transition-colors">Terms of Service</Link></li>
+              <li><Link href="/privacy-policy" className="text-muted-foreground hover:text-accent transition-colors">Privacy Policy</Link></li>
+              <li><Link href="/terms-of-service" className="text-muted-foreground hover:text-accent transition-colors">Terms of Service</Link></li>
             </ul>
           </div>
 
