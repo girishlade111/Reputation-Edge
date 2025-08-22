@@ -1,9 +1,18 @@
+"use client";
+
 import Link from "next/link";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Briefcase, Twitter, Linkedin, Instagram } from "lucide-react";
+import React, { useState, useEffect } from "react";
 
 export function Footer() {
+  const [currentYear, setCurrentYear] = useState(new Date().getFullYear());
+
+  useEffect(() => {
+    setCurrentYear(new Date().getFullYear());
+  }, []);
+
   return (
     <footer className="bg-secondary text-secondary-foreground border-t">
       <div className="container mx-auto px-4 py-12 md:px-6">
@@ -51,7 +60,7 @@ export function Footer() {
           </div>
         </div>
         <div className="border-t mt-8 pt-6 text-center text-sm text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} Reputation Edge. All rights reserved.</p>
+          <p>&copy; {currentYear} Reputation Edge. All rights reserved.</p>
         </div>
       </div>
     </footer>
