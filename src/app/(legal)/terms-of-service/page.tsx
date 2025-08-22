@@ -1,8 +1,18 @@
+"use client";
+
+import { useState, useEffect } from "react";
+
 export default function TermsOfServicePage() {
+    const [lastUpdated, setLastUpdated] = useState("");
+
+    useEffect(() => {
+        setLastUpdated(new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }));
+    }, []);
+
     return (
       <>
         <h1>Terms of Service for Reputation Edge</h1>
-        <p><strong>Last Updated:</strong> {new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</p>
+        <p><strong>Last Updated:</strong> {lastUpdated}</p>
 
         <h2>1. Agreement to Terms</h2>
         <p>
@@ -11,7 +21,7 @@ export default function TermsOfServicePage() {
 
         <h2>2. Use of the Website</h2>
         <p>
-          You agree to use the website for lawful purposes only. You are prohibited from posting on or transmitting through the website any material that is unlawful, harmful, threatening, abusive, harassing, defamatory, vulgar, obscene, sexually explicit, profane, hateful, or otherwise objectionable, including, but not limited to, any material that encourages conduct that would constitute a criminal offense, give rise to civil liability, or otherwise violate any applicable local, state, national, or international law.
+          You agree to use the website for lawful purposes only. You are prohibited from posting on or transmitting through the website any material that is unlawful, harmful, threatening, abusive, harassing, defamatory, vulgar, obscene, sexually explicit, profane, hateful, or otherwise objectionable, including, but not to, any material that encourages conduct that would constitute a criminal offense, give rise to civil liability, or otherwise violate any applicable local, state, national, or international law.
         </p>
 
         <h2>3. Intellectual Property</h2>
@@ -47,4 +57,3 @@ export default function TermsOfServicePage() {
       </>
     );
   }
-  

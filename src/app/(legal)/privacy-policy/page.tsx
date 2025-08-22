@@ -1,8 +1,18 @@
+"use client";
+
+import { useState, useEffect } from "react";
+
 export default function PrivacyPolicyPage() {
+    const [lastUpdated, setLastUpdated] = useState("");
+
+    useEffect(() => {
+        setLastUpdated(new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }));
+    }, []);
+
     return (
       <>
         <h1>Privacy Policy for Reputation Edge</h1>
-        <p><strong>Last Updated:</strong> {new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</p>
+        <p><strong>Last Updated:</strong> {lastUpdated}</p>
 
         <h2>Introduction</h2>
         <p>
@@ -64,4 +74,3 @@ export default function PrivacyPolicyPage() {
       </>
     );
   }
-  
