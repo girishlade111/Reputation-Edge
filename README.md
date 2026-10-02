@@ -61,3 +61,9 @@ Here is a brief overview of the key files and directories:
 -   `public/`: Static assets like images and fonts.
 -   `tailwind.config.ts`: Configuration file for Tailwind CSS.
 -   `next.config.ts`: Configuration file for Next.js.
+
+---
+
+## Credits
+
+Built by **Girish Lade** — https://ladestack.in
